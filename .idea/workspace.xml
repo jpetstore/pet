@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63afb7b7-ccdc-493b-ab27-c2b77455183b" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ng76RhEdFZduJRTGdiFlp1c3pO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/csu/petstoremanage/service" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\jpetstore\src\main\java\org\csu\petstoremanage\service" />
+      <recent name="C:\Users\HP\Desktop\jpetstore\src\main\java\org\csu\petstoremanage\domain" />
+      <recent name="C:\Users\HP\Desktop\jpetstore\src\main\java\org\csu\petstoremanage\persistence" />
+      <recent name="C:\Users\HP\Desktop\jpetstore\src\main\java\org\csu\petstoremanage\Controller" />
+      <recent name="C:\Users\HP\Desktop\jpetstore\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PetstoreManageApplication">
+    <configuration name="PetstoreManageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.csu.petstoremanage.PetstoreManageApplication" />
+      <module name="petstoreManage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csu.petstoremanage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetstoreManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="petstoreManage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.csu.petstoremanage.PetstoreManageApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PetstoreManageApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="63afb7b7-ccdc-493b-ab27-c2b77455183b" name="变更" comment="" />
+      <created>1680073695896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680073695896</updated>
+      <workItem from="1680073697647" duration="87000" />
+      <workItem from="1680073830104" duration="163000" />
+      <workItem from="1680074080763" duration="7000" />
+      <workItem from="1680074089602" duration="3257000" />
+      <workItem from="1680078744316" duration="121000" />
+      <workItem from="1680078894279" duration="43000" />
+      <workItem from="1680079057745" duration="32000" />
+      <workItem from="1680079225527" duration="797000" />
+      <workItem from="1680092790937" duration="5869000" />
+      <workItem from="1680100873792" duration="644000" />
+      <workItem from="1680101888883" duration="2692000" />
+      <workItem from="1680104677997" duration="2430000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

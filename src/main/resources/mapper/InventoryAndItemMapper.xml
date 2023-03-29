@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.csu.petstoremanage.persistence.ItemMapper">
+
+<resultMap id="ItemMap" type="org.csu.petstoremanage.domain.Item">
+    <result column="attr1" property="attribute1"></result>
+    <result column="attr2" property="attribute2"></result>
+    <result column="attr3" property="attribute3"></result>
+    <result column="attr4" property="attribute4"></result>
+    <result column="attr5" property="attribute5"></result>
+</resultMap>
+
+    <update id="updateInventory" parameterType="org.csu.petstoremanage.domain.Inventory">
+        UPDATE INVENTORY
+        SET ITEMID = #{itemId},
+            QTY = #{qty},
+        QTY_SOLD = #{qty_sold},
+        QTY_PRE = #{qty_pre},
+        QTY_ORDER = #{qty_order}
+        WHERE ITEMID = #{itemId}
+    </update>
+    <update id="updateItem" parameterType="org.csu.petstoremanage.domain.Item">
+        UPDATE ITEM
+        SET   ITEMID= #{itemId},
+            LISTPRICE= #{listPrice},
+            UNITCOST =#{unitCost} ,
+            SUPPLIER =#{supplierId},
+            STATUS= #{status},
+            ATTR1 =#{attribute1},
+            ATTR2 =#{attribute2},
+            ATTR3 =#{attribute3},
+            ATTR4 =#{attribute4},
+            ATTR5 =#{attribute5}
+        WHERE ITEMID = #{itemId}
+    </update>
+    <select id="getAllInventory"  resultType="org.csu.petstoremanage.domain.Inventory">
+        SELECT
+       * FROM INVENTORY
+    </select>
+
+        <select id="getAllItem" resultMap="ItemMap">
+        select
+        *
+        from ITEM
+    </select>
+
+    <select id="getItem" parameterType="string" resultType="org.csu.petstoremanage.domain.Item">
+        SELECT ITEMID AS itemId,
+               LISTPRICE AS listPrice,
+               UNITCOST AS unitCost ,
+               SUPPLIER AS supplierId,
+               STATUS AS status,
+               ATTR1 AS attribute1,
+               ATTR2 AS attribute2,
+               ATTR3 AS attribute3,
+               ATTR4 AS attribute4,
+               ATTR5 AS attribute5
+        FROM ITEM
+        WHERE ITEMID = #{itemId}
+    </select>
+    <select id="getInventory" parameterType="string" resultType="org.csu.petstoremanage.domain.Inventory">
+        SELECT
+--                ITEMID AS itemId
+--             QTY AS qty
+--          QTY_SOLD AS qty_sold
+--          QTY_PRE AS qty_pre
+--          QTY_ORDER AS qty_order
+        *
+        FROM INVENTORY
+        WHERE ITEMID = #{itemId}
+    </select>
+<!--    <select id="getInventory" parameterType="string" resultType="org.csu.petstoremanage.domain.Inventory">-->
+<!--        SELECT QTY AS value-->
+<!--        FROM INVENTORY-->
+<!--        WHERE ITEMID = #{itemId}-->
+<!--    </select>-->
+
+    <insert id="insertItemByItemid" parameterType="org.csu.petstoremanage.domain.Item">
+        insert into item (itemId,productId,listPrice,unitCost,supplier,status,attr1,attr2,attr3,attr4,attr5)
+        values (#{itemId},#{productId},#{listPrice},#{unitCost},#{supplierId},#{status},#{attribute1},#{attribute2},#{attribute3},#{attribute4},#{attribute5})
+    </insert>
+    <insert id="insertInventory" parameterType="org.csu.petstoremanage.domain.Inventory">
+        insert into inventory (itemid,qty,qty_sold,qty_pre,qty_order)
+        values (#{itemId},#{qty},#{qty_sold},#{qty_pre},#{qty_order})
+    </insert>
+
+    <delete id="removeItemByItemId">
+        delete from ITEM where itemid = #{itemId}
+    </delete>
+    <delete id="removeInventoryByItemId">
+        delete from INVENTORY where itemid = #{itemId}
+    </delete>
+
+<!--    <update id="updateInventoryQuantity" parameterType="map">-->
+<!--        UPDATE INVENTORY SET-->
+<!--            QTY = QTY - #{increment}-->
+<!--        WHERE ITEMID = #{itemId}-->
+<!--    </update>-->
+</mapper>
