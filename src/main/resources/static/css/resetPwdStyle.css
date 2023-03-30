@@ -1,15 +1,31 @@
 
 .resetPwd-btn {
-    display: inline-block;
-    padding: 5px 10px;
-    font-size: 14px;
-    font-weight: bold;
+    /*display: inline-block;*/
+    /*padding: 5px 10px;*/
+    /*font-size: 14px;*/
+    /*font-weight: bold;*/
     color: #fff;
     background-color: #6431ff;
-    border: none;
-    border-radius: 10px;
+    /*border: none;*/
+    /*border-radius: 10px;*/
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    /*transition: background-color 0.3s ease;*/
+
+
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
 }
 
 .resetPwd-btn:hover {
@@ -28,16 +44,16 @@
 }
 
 
-.resetPwdLabel {
-    font-weight: bold;
-    color: green;
-    font-size: 20px;
-}
+/*.resetPwdLabel {*/
+/*    font-weight: bold;*/
+/*    color: green;*/
+/*    font-size: 20px;*/
+/*}*/
 
-.inputPwd {
-    font-weight: bold;
-    font-size: 20px;
-}
+/*.inputPwd {*/
+/*    font-weight: bold;*/
+/*    font-size: 20px;*/
+/*}*/
 
 /*.resetPwd-btn {*/
 /*    display: inline-block;*/
@@ -66,5 +82,7 @@
 /*.resetPwd-btn-container .resetPwd-btn {*/
 /*    margin-right: 10px;*/
 /*}*/
+
+
 
 
