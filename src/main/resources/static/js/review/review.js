@@ -58,7 +58,7 @@ $(function (){
     })
 
     //初始化表格
-    var table = $('table').DataTable({
+    var table = $('#review-table').DataTable({
         paging: false,
         scrollY: 550,
         dom:'<fi<"#toolbox">t>',

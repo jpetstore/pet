@@ -1,0 +1,70 @@
+
+.resetPwd-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6431ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resetPwd-btn:hover {
+    background-color: #203f65;
+}
+
+.resetPwd-btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.resetPwd-btn-container .resetPwd-btn {
+    margin-right: 10px;
+}
+
+
+.resetPwdLabel {
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+
+.inputPwd {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*.resetPwd-btn {*/
+/*    display: inline-block;*/
+/*    padding: 5px 10px;*/
+/*    font-size: 14px;*/
+/*    font-weight: bold;*/
+/*    color: #fff;*/
+/*    background-color: #6431ff;*/
+/*    border: none;*/
+/*    border-radius: 10px;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s ease;*/
+/*}*/
+
+/*.resetPwd-btn:hover {*/
+/*    background-color: #7b4fa3;*/
+/*}*/
+
+/*.resetPwd-btn-container {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.resetPwd-btn-container .resetPwd-btn {*/
+/*    margin-right: 10px;*/
+/*}*/
+
+

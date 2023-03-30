@@ -12,6 +12,13 @@
     <link href="../plugins/tables/css/datatable/dataTables.bootstrap4.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 
+    <link href="/css/resetPwdStyle.css" rel="stylesheet">
+    <link href="/css/User.css" rel="stylesheet">
+    <link href="/plugins/tables/css/datatable/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="./js/review/review.js"></script>
 </head>
 
 <body>
@@ -121,8 +128,7 @@
                         <i class="icon-screen-tablet menu-icon"></i> <span class="nav-text">用户管理模块</span>
                     </a>
                     <ul aria-expanded="false">
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="register.html">Register</a></li>
+                        <li><a href="/account">用户信息管理</a></li>
                     </ul>
                 </li>
                 <li>
@@ -137,11 +143,11 @@
                 </li>
                 <li>
                     <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">
-                        <i class="icon-envelope menu-icon"></i><span class="nav-text">评论管理模块</span>
+                        <i class="icon-bubble"></i> <span class="nav-text">评论管理模块</span>
                     </a>
                     <ul aria-expanded="false">
-                        <li><a href="delete_comments.html">删除评论</a></li>
-                        <li><a href="up_comments.html">置顶评论</a></li>
+                        <li><a href="/reviewtable">评论信息表</a></li>
+                        <li><a href="/reviewstatistic">评论统计</a></li>
                     </ul>
                 </li>
             </ul>
